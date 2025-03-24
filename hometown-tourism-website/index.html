@@ -11,6 +11,7 @@
     <header class="bg-secondary text-white text-center py-5">
         <h1>Welcome to Islamabad, Pakistan</h1>
         <p>Discover the beauty, history, and experiences of our capital city</p>
+        <a href="visit.html" class="btn btn-light btn-lg mt-3">Explore Now</a>
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -22,12 +23,72 @@
     </nav>
 
     <main class="container mt-5">
-        <section>
-            <h2>About Islamabad</h2>
-            <p>Islamabad, the capital of Pakistan, is known for its beautiful scenery, cultural landmarks, and modern architecture.</p>
-            <img src="./Images/islamabad.png" alt="Scenic view of Islamabad" class="img-fluid rounded">
+        <!-- Introduction Section -->
+        <section class="text-center">
+            <h2>Welcome to Islamabad</h2>
+            <p>Islamabad, the capital of Pakistan, is known for its scenic beauty, modern architecture, and historical landmarks. It is one of the most beautiful cities in South Asian region. It was built during the 1960s to replace Karachi as Pakistan's capital by renowned town planners Doxiadis Associates. Islamabad is the fastest growing city in terms of population, economy and urban development.
+            Discover the must-visit places and immerse yourself in the charm of this vibrant city.</p>
+            <a href="visit.html" class="btn btn-secondary btn-lg mt-3">Explore Now</a>
         </section>
 
+        <!-- Image Carousel -->
+        <section class="mt-5">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Images/islamabad-banner.png" class="d-block w-100" alt="Islamabad City View">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/faisal-mosque.png" class="d-block w-100" alt="Faisal Mosque">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Images/daman-e-koh.png" class="d-block w-100" alt="Daman-e-Koh">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Featured Attractions -->
+        <section class="mt-5">
+            <h2 class="text-center">Top Attractions</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Images/faisal-mosque.png" class="card-img-top" alt="Faisal Mosque">
+                        <div class="card-body">
+                            <h5 class="card-title">Faisal Mosque</h5>
+                            <p class="card-text">One of the largest mosques in the world, known for its stunning modern design.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Images/daman-e-koh.png" class="card-img-top" alt="Daman-e-Koh">
+                        <div class="card-body">
+                            <h5 class="card-title">Daman-e-Koh</h5>
+                            <p class="card-text">A breathtaking viewpoint offering stunning panoramic views of Islamabad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./Images/pakistan-monument.png" class="card-img-top" alt="Pakistan Monument">
+                        <div class="card-body">
+                            <h5 class="card-title">Pakistan Monument</h5>
+                            <p class="card-text">A national landmark symbolizing the unity of the four provinces of Pakistan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
         <section class="mt-5">
             <h2>Find Us</h2>
             <p>Here is a map of Islamabad:</p>
